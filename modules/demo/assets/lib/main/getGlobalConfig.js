@@ -34,8 +34,8 @@ let globalConfig = {
 //@module模块占位符
 if (httpEnvironment === "local") {
   globalConfig.isDebug = false;
-  globalConfig.signKey = "N2APPINTERFACE2018#@!%99"; // 接口数据交互加密key
-  globalConfig.comId = "N2O2O20180912"; // 保险公司编码--保险公司IdN2O2O20180912
+  globalConfig.signKey = ""; // 接口数据交互加密key
+  globalConfig.comId = ""; // 保险公司编码--保险公司IdN2O2O20180912
   globalConfig.caChannel = "999999"; //2018-07-16新增额外渠道--测试账号为99999--生产账户为30010320
   globalConfig.rootUrl = "http://show.n22.com.cn:8785/api/@module/int"; //process.env.VUE_APP_ROOTURL
   // globalConfig.rootFileUrl = 'http://ydpt-int.boc-samsunglife.cn/fileservice/int'; //文件上传地址
